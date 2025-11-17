@@ -1,0 +1,66 @@
+#!/bin/bash
+
+# 上传到Gitee的指导脚本
+echo "🚀 汽水音乐下载器 - Gitee上传指南"
+echo "================================="
+echo ""
+
+echo "✅ Git配置已完成:"
+echo "   用户名: @家军"
+echo "   邮箱: 75789676@qq.com"
+echo ""
+
+echo "✅ 项目已初始化:"
+echo "   - Git仓库已初始化"
+echo "   - 所有文件已添加到暂存区"
+echo "   - 初始提交已完成"
+echo "   - 远程仓库已配置"
+echo ""
+
+echo "📋 项目统计:"
+git log --oneline | wc -l | xargs echo "   提交数量:"
+git ls-files | wc -l | xargs echo "   文件数量:"
+echo ""
+
+echo "🔐 需要身份验证上传到Gitee:"
+echo "================================"
+echo ""
+echo "方法1: 使用用户名密码"
+echo "   git push -u origin main"
+echo "   然后输入您的Gitee用户名和密码"
+echo ""
+echo "方法2: 使用访问令牌 (推荐)"
+echo "   1. 登录Gitee -> 设置 -> 私人令牌"
+echo "   2. 生成新令牌，复制令牌值"
+echo "   3. 运行: git push -u origin main"
+echo "   4. 用户名输入: heweiya"
+echo "   5. 密码输入: [粘贴访问令牌]"
+echo ""
+echo "方法3: 配置SSH密钥"
+echo "   1. 生成SSH密钥: ssh-keygen -t rsa -C '75789676@qq.com'"
+echo "   2. 复制公钥: cat ~/.ssh/id_rsa.pub"
+echo "   3. 在Gitee添加SSH公钥"
+echo "   4. 更改远程URL: git remote set-url origin git@gitee.com:heweiya/qishui-music-downloader.git"
+echo "   5. 推送: git push -u origin main"
+echo ""
+
+echo "🎯 推荐操作步骤:"
+echo "================"
+echo "1. 在Gitee创建访问令牌"
+echo "2. 运行以下命令:"
+echo "   cd /Volumes/HE5-0/汽水音乐下载/soda-music-downloader"
+echo "   git push -u origin main"
+echo "3. 输入用户名: heweiya"
+echo "4. 输入密码: [访问令牌]"
+echo ""
+
+echo "📊 当前仓库状态:"
+echo "================"
+git status
+echo ""
+
+echo "🔗 Gitee仓库地址:"
+echo "   https://gitee.com/heweiya/qishui-music-downloader"
+echo ""
+
+echo "💡 上传完成后，您的项目将在以上地址可见！"

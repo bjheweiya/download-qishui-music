@@ -1,0 +1,20 @@
+# 汽水音乐示例链接
+
+# 这些是汽水音乐分享链接的示例格式
+# 实际使用时，请从汽水音乐应用中复制真实的分享链接
+
+# 示例链接格式：
+https://qishui.douyin.com/s/iuQsMoP2/
+https://qishui.douyin.com/s/iuQsNeNb/
+https://qishui.douyin.com/s/iuQsKpAS/
+
+# 如何获取分享链接：
+# 1. 在汽水音乐中播放歌曲
+# 2. 点击分享按钮
+# 3. 选择"复制链接"
+# 4. 链接会自动复制到剪贴板
+
+# 注意：
+# - 链接格式必须是 https://qishui.douyin.com/s/xxxxx/
+# - 每个链接对应一首特定的歌曲
+# - 链接中的ID是唯一的

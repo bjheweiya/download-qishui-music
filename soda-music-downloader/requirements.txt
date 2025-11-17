@@ -1,0 +1,12 @@
+# 汽水音乐下载器依赖包
+
+# 核心依赖
+requests>=2.25.0
+selenium>=4.0.0
+moviepy>=1.0.3
+
+# 浏览器驱动管理
+webdriver-manager>=3.8.0
+
+# 可选依赖（用于音频处理优化）
+# ffmpeg-python>=0.2.0
