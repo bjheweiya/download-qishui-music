@@ -4,7 +4,7 @@
 
 ## 预览效果
 
-https://github.com/user-attachments/assets/preview.mov
+![使用演示](preview.gif)
 
 > 演示视频展示了完整的使用流程：启动程序 → 复制链接 → 自动下载
 
